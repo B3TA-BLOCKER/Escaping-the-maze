@@ -18,7 +18,6 @@ bool can_shift(int **arr, int x, int y, int size) {
                 -> The condiction will only return true if the value if one(1) at the corresponding indexes
                     and they are less than the size of the matrix.
         */
-
         return true;
     }
     return false;
@@ -60,7 +59,6 @@ bool movement(int **arr, int x, int y, int size, int **final_result_array) {
                 -> Backtracking means returning back to the previous position.
         */
 
-
         final_result_array[x][y] = 0; // Backtracking
         return false;
     }
@@ -93,6 +91,7 @@ int main() {
     for (int i = 0; i < size; i++) {
         final_result_array[i] = new int[size];
         for (int j = 0; j < size; j++) {
+            
             // we also need to initialize every value in this matrix equal to zero(0) to avoid garbage value from the compiler
             final_result_array[i][j] = 0;
         }
