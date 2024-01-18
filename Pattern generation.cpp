@@ -67,6 +67,7 @@ bool movement(int **arr, int x, int y, int size, int **final_result_array) {
 }
 
 int main() {
+    system("CLS");
     // Here we assuming that the it's a square matrix;
     int size;
     cout << "Enter the size of the Matrix: ";
