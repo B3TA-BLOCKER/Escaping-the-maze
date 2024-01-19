@@ -11,7 +11,7 @@ Feel free to clone the repository and try it out with your maze configurations. 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/B3TA-BLOCKER/Pattern_generation.git
+   git clone https://github.com/B3TA-BLOCKER/Escaping-the-maze.git
    ```
 
 
