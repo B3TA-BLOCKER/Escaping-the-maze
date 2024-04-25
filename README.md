@@ -11,18 +11,18 @@ Feel free to clone the repository and try it out with your maze configurations. 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/B3TA-BLOCKER/Escaping-the-maze.git
+   https://github.com/B3TA-BLOCKER/Escaping-the-maze.git
    ```
 
 
 2. Compile the code using a C++ compiler:
    ```bash
-   g++ Pattern_generation.cpp -o Pattern_generation
+   g++ main.cpp -o main
    ```
 
 4. Run the executable:
    ```bash
-   ./Pattern_generation
+   ./main
    ```
 
 
